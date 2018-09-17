@@ -1,0 +1,28 @@
+{
+  "name": "minicssextractplugin_splitchunks",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivensgoncalves/MiniCssExtractPlugin_SplitChunks.git"
+  },
+  "author": "Ivens Gonçalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivensgoncalves/MiniCssExtractPlugin_SplitChunks/issues"
+  },
+  "homepage": "https://github.com/ivensgoncalves/MiniCssExtractPlugin_SplitChunks#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
